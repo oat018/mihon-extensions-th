@@ -19,16 +19,13 @@ APK เป็น **self-signed ด้วย debug key** (ไม่มี `signin
 
 ## วิธีติดตั้ง
 
-repo นี้เป็น **private** — Mihon ดึง `index.min.json` ผ่าน raw URL แบบไม่ล็อกอิน เพราะฉะนั้น
-**เพิ่มเป็น extension repo ในแอปไม่ได้** ต้องโหลด APK จาก `apk/` แล้ว sideload เอง
+เพิ่มเป็น extension repo ใน Mihon ได้เลย (Settings → Browse → Extension repos → Add) ด้วย URL นี้:
 
-ถ้าอยากให้แอปดึงเองได้ ต้องเปลี่ยนเป็น public ก่อน:
-
-```bash
-gh repo edit oat018/mihon-extensions-th --visibility public
+```
+https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/index.min.json
 ```
 
-แล้วเพิ่ม repo URL ในแอปเป็น raw URL ของ `index.min.json` บน branch `main`
+หรือโหลด APK จาก `apk/` ไป sideload เองก็ได้
 
 ## ซอร์สโค้ดอยู่ไหน
 
