@@ -71,7 +71,9 @@ export JAVA_HOME="/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot"   #
    จะ error ว่า "Unable to find the page list" ส่วนอื่น (popular/latest/search/details/chapters)
    verify กับ HTML และ endpoint จริงแล้ว
 
-2. **kairew.com — map ครบแล้ว แต่ติด login** เขียนต่อได้เลยถ้ามีบัญชี:
+2. **kairew.com — map ครบแล้ว แต่พักไว้เพราะติด login** (เจ้าของ repo ไม่มีบัญชี เลยทดสอบไม่ได้)
+   ใครมีบัญชีเขียนต่อได้เลย — ท่าที่ควรใช้คือให้ login ผ่าน WebView ของ Mihon
+   (session cookie จะอยู่ใน CookieManager ที่ OkHttp client ของ extension ใช้ร่วม) ไม่ต้องเก็บรหัสผ่าน preference:
    - หน้าเว็บเป็น Laravel + Inertia + Vue และ **ฝัง route table ของ Ziggy ไว้ใน HTML** (`"routes":{...}`, 303 routes)
      → หา endpoint ด้วยการ grep HTML อย่าเดา URL (SPA catch-all คืน 200 ทุก path, status code บอกอะไรไม่ได้)
    - listing: `POST /api/home-data` (ต้องมี `X-CSRF-TOKEN` จาก Inertia prop `csrf_token` + session cookie)
