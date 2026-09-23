@@ -1,0 +1,92 @@
+{
+  "name": "Mihon Extensions TH",
+  "badgeLabel": "TH",
+  "signingKey": "4cb88c43c6a9ab143487c20d7f45578af3384264f2b8a20eda94cc1f9b234859",
+  "contact": {
+    "website": "https://github.com/oat018/mihon-extensions-th"
+  },
+  "extensionList": {
+    "extensions": [
+      {
+        "name": "Kairew",
+        "packageName": "eu.kanade.tachiyomi.extension.th.kairew",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/tachiyomi-th.kairew-v1.6.2.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.th.kairew.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "8891736935918962280",
+            "name": "Kairew",
+            "language": "th",
+            "homeUrl": "https://kairew.com"
+          }
+        ]
+      },
+      {
+        "name": "Nekopost",
+        "packageName": "eu.kanade.tachiyomi.extension.th.nekopost",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/tachiyomi-th.nekopost-v1.6.16.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.th.nekopost.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106016",
+        "versionName": "1.6.16",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "4353470354941192417",
+            "name": "Nekopost",
+            "language": "th",
+            "homeUrl": "https://www.nekopost.net"
+          }
+        ]
+      },
+      {
+        "name": "ReadRealm",
+        "packageName": "eu.kanade.tachiyomi.extension.th.readrealm",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/tachiyomi-th.readrealm-v1.6.1.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.th.readrealm.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "702761992332293393",
+            "name": "ReadRealm",
+            "language": "th",
+            "homeUrl": "https://readrealm.co"
+          }
+        ]
+      },
+      {
+        "name": "WhyToon",
+        "packageName": "eu.kanade.tachiyomi.extension.th.whytoon",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/tachiyomi-th.whytoon-v1.6.1.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.th.whytoon.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "2537618180202255574",
+            "name": "WhyToon",
+            "language": "th",
+            "homeUrl": "https://whytoon.com"
+          }
+        ]
+      }
+    ]
+  }
+}
