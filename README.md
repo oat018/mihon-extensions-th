@@ -1,16 +1,18 @@
 # Mihon Extensions TH
 
-สาขา `repo` ของ `oat018/mihon-extensions-th` เก็บไฟล์สำหรับติดตั้งส่วนขยายภาษาไทยใน Mihon: ดัชนี ไอคอน และ APK ที่เซ็นแล้ว ซอร์สของ Kairew กับ WhyToon และระบบ build/publish อยู่ที่ [kaoitp/extensions-source](https://github.com/kaoitp/extensions-source)
+สาขา `main` ของ `oat018/mihon-extensions-th` เก็บไฟล์สำหรับติดตั้งส่วนขยายภาษาไทยใน Mihon: ดัชนี ไอคอน และ APK ที่เซ็นแล้ว ซอร์สของ Kairew กับ WhyToon และระบบ build/publish อยู่ที่ [kaoitp/extensions-source](https://github.com/kaoitp/extensions-source)
 
 ## เพิ่ม repo ใน Mihon
 
 Mihon → Settings → Browse → Extension repos → Add แล้ววาง URL นี้:
 
 ```
-https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb
+https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/index.pb
 ```
 
 `index.pb` เป็น protobuf index รุ่นปัจจุบันที่ Mihon ใช้ ส่วน `index.min.json` เก็บไว้เพื่อรองรับแอปรุ่นเก่าเท่านั้น
+
+URL เดิมที่ชี้สาขา `repo` ยังใช้งานได้ โดย workflow ซิงก์สาขานั้นเพื่อรองรับผู้ที่เพิ่ม repo ไว้ก่อนหน้านี้
 
 ## ไฟล์ที่ publish
 
@@ -28,9 +30,9 @@ https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb
 ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew หรือ WhyToon จะเรียก [Publish Thai extensions](https://github.com/kaoitp/extensions-source/blob/main/.github/workflows/publish-th.yml) ซึ่งทำตามลำดับนี้:
 
 1. build release APK ของ Kairew และ WhyToon ด้วย signing key จาก GitHub Actions secrets
-2. checkout `oat018/mihon-extensions-th` สาขา `repo`
+2. checkout `oat018/mihon-extensions-th` สาขา `main`
 3. สร้าง `index.pb`, `index.json`, `repo.json`, legacy index และ icon
-4. commit และ push เฉพาะผลลัพธ์ที่ publish
+4. commit ผลลัพธ์ที่ publish ลง `main` และซิงก์ `repo` เพื่อรองรับ URL เดิม
 
 source repo เก็บ signing key และ private deploy key ใน GitHub Actions secrets ส่วน public deploy key ต้องได้รับสิทธิ์เขียนที่ publish repo ก่อน workflow จะ push ได้
 
