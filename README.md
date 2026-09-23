@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb
 
 ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew จะเรียก [Publish Thai extensions](https://github.com/kaoitp/extensions-source/blob/main/.github/workflows/publish-th.yml) ซึ่งทำตามลำดับนี้:
 
-1. build release APK และ JAR ด้วย signing key จาก GitHub Actions secrets
+1. build release APK ด้วย signing key จาก GitHub Actions secrets
 2. checkout `oat018/mihon-extensions-th` สาขา `repo`
 3. สร้าง `index.pb`, `index.json`, `repo.json`, legacy index และ icon
 4. commit และ push เฉพาะผลลัพธ์ที่ publish
