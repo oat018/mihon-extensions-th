@@ -68,6 +68,26 @@
         ]
       },
       {
+        "name": "Up-Manga",
+        "packageName": "eu.kanade.tachiyomi.extension.th.upmanga",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.upmanga-v1.6.1.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/icon/eu.kanade.tachiyomi.extension.th.upmanga.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106001",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "8621253824834634233",
+            "name": "Up-Manga",
+            "language": "th",
+            "homeUrl": "https://www.up-manga.com"
+          }
+        ]
+      },
+      {
         "name": "WhyToon",
         "packageName": "eu.kanade.tachiyomi.extension.th.whytoon",
         "resources": {
