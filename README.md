@@ -1,6 +1,6 @@
 # Mihon Extensions TH
 
-สาขา `repo` ของ `oat018/mihon-extensions-th` เก็บไฟล์สำหรับติดตั้งส่วนขยายภาษาไทยใน Mihon: ดัชนี ไอคอน และ APK ที่เซ็นแล้ว ซอร์สของ Kairew และระบบ build/publish อยู่ที่ [kaoitp/extensions-source](https://github.com/kaoitp/extensions-source)
+สาขา `repo` ของ `oat018/mihon-extensions-th` เก็บไฟล์สำหรับติดตั้งส่วนขยายภาษาไทยใน Mihon: ดัชนี ไอคอน และ APK ที่เซ็นแล้ว ซอร์สของ Kairew กับ WhyToon และระบบ build/publish อยู่ที่ [kaoitp/extensions-source](https://github.com/kaoitp/extensions-source)
 
 ## เพิ่ม repo ใน Mihon
 
@@ -21,13 +21,13 @@ https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb
 - `apk/` — APK ที่ publish
 - `icon/` — icon ที่ index อ้างถึง
 
-ตอนนี้มี Kairew, Nekopost, ReadRealm และ WhyToon โดยซอร์สของ Kairew อยู่ใน source fork ส่วนอีกสามตัวเก็บเป็น APK ใน repo นี้ APK ทั้งหมดใช้ signing certificate เดียวกัน และตัวสร้าง index จะหยุดหากพบหลายลายเซ็น ผู้ที่ติดตั้ง Nekopost, ReadRealm หรือ WhyToon จากชุดเก่าซึ่งใช้ลายเซ็นอื่น ต้องถอนการติดตั้งตัวเก่าก่อนติดตั้งจาก repo นี้
+ตอนนี้มี Kairew, Nekopost, ReadRealm และ WhyToon โดยซอร์สของ Kairew กับ WhyToon อยู่ใน source fork ส่วน Nekopost และ ReadRealm เก็บเป็น APK ใน repo นี้ APK ทั้งหมดใช้ signing certificate เดียวกัน และตัวสร้าง index จะหยุดหากพบหลายลายเซ็น ผู้ที่ติดตั้ง Nekopost, ReadRealm หรือ WhyToon จากชุดเก่าซึ่งใช้ลายเซ็นอื่น ต้องถอนการติดตั้งตัวเก่าก่อนติดตั้งจาก repo นี้
 
 ## การพัฒนาและ publish
 
-ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew จะเรียก [Publish Thai extensions](https://github.com/kaoitp/extensions-source/blob/main/.github/workflows/publish-th.yml) ซึ่งทำตามลำดับนี้:
+ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew หรือ WhyToon จะเรียก [Publish Thai extensions](https://github.com/kaoitp/extensions-source/blob/main/.github/workflows/publish-th.yml) ซึ่งทำตามลำดับนี้:
 
-1. build release APK ด้วย signing key จาก GitHub Actions secrets
+1. build release APK ของ Kairew และ WhyToon ด้วย signing key จาก GitHub Actions secrets
 2. checkout `oat018/mihon-extensions-th` สาขา `repo`
 3. สร้าง `index.pb`, `index.json`, `repo.json`, legacy index และ icon
 4. commit และ push เฉพาะผลลัพธ์ที่ publish
