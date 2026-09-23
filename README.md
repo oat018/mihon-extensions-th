@@ -1,6 +1,6 @@
 # Mihon Extensions TH
 
-repo นี้เป็นพื้นที่ **publish** สำหรับส่วนขยาย Mihon ภาษาไทย โดยจัดโครงสร้างตาม Keiyoushi: ซอร์สและ CI อยู่ใน fork ของ `extensions-source`; สาขา `repo` นี้เก็บเฉพาะ index, icon และ APK ที่เซ็นแล้ว
+สาขา `repo` ของ `oat018/mihon-extensions-th` เก็บไฟล์สำหรับติดตั้งส่วนขยายภาษาไทยใน Mihon: ดัชนี ไอคอน และ APK ที่เซ็นแล้ว ซอร์สของ Kairew และระบบ build/publish อยู่ที่ [kaoitp/extensions-source](https://github.com/kaoitp/extensions-source)
 
 ## เพิ่ม repo ใน Mihon
 
@@ -21,17 +21,17 @@ https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb
 - `apk/` — APK ที่ publish
 - `icon/` — icon ที่ index อ้างถึง
 
-APK ทั้งหมดใน repo ต้องใช้ signing certificate เดียวกัน ตัวสร้าง index จะหยุดทันทีหากพบหลายลายเซ็น
+ตอนนี้มี Kairew, Nekopost, ReadRealm และ WhyToon โดยซอร์สของ Kairew อยู่ใน source fork ส่วนอีกสามตัวเก็บเป็น APK ใน repo นี้ APK ทั้งหมดใช้ signing certificate เดียวกัน และตัวสร้าง index จะหยุดหากพบหลายลายเซ็น ผู้ที่ติดตั้ง Nekopost, ReadRealm หรือ WhyToon จากชุดเก่าซึ่งใช้ลายเซ็นอื่น ต้องถอนการติดตั้งตัวเก่าก่อนติดตั้งจาก repo นี้
 
 ## การพัฒนาและ publish
 
-ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew จะเรียก `.github/workflows/publish-th.yml` ซึ่งทำตามลำดับนี้:
+ซอร์สอยู่ใน fork `kaoitp/extensions-source` บนสาขา `main` และติดตาม upstream `keiyoushi/extensions-source` การ push การเปลี่ยนแปลง Kairew จะเรียก [Publish Thai extensions](https://github.com/kaoitp/extensions-source/blob/main/.github/workflows/publish-th.yml) ซึ่งทำตามลำดับนี้:
 
 1. build release APK และ JAR ด้วย signing key จาก GitHub Actions secrets
 2. checkout `oat018/mihon-extensions-th` สาขา `repo`
 3. สร้าง `index.pb`, `index.json`, `repo.json`, legacy index และ icon
 4. commit และ push เฉพาะผลลัพธ์ที่ publish
 
-Secrets ที่ source repo ต้องมี: `SIGNING_KEY`, `ALIAS`, `KEY_STORE_PASSWORD`, `KEY_PASSWORD`, และ `PUBLISH_SSH_KEY` ซึ่งเป็น deploy key ที่มีสิทธิ์เขียนเฉพาะ publish repo
+source repo เก็บ signing key และ private deploy key ใน GitHub Actions secrets ส่วน public deploy key ต้องได้รับสิทธิ์เขียนที่ publish repo ก่อน workflow จะ push ได้
 
 โครงการนี้ไม่เกี่ยวข้องกับ Mihon หรือผู้ให้บริการเนื้อหาอย่างเป็นทางการ
