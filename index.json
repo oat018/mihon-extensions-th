@@ -31,12 +31,12 @@
         "name": "Nekopost",
         "packageName": "eu.kanade.tachiyomi.extension.th.nekopost",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.nekopost-v1.6.16.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.nekopost-v1.6.17.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/icon/eu.kanade.tachiyomi.extension.th.nekopost.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106016",
-        "versionName": "1.6.16",
+        "versionCode": "106017",
+        "versionName": "1.6.17",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -51,12 +51,12 @@
         "name": "ReadRealm",
         "packageName": "eu.kanade.tachiyomi.extension.th.readrealm",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.readrealm-v1.6.2.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.readrealm-v1.6.3.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/icon/eu.kanade.tachiyomi.extension.th.readrealm.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106002",
-        "versionName": "1.6.2",
+        "versionCode": "106003",
+        "versionName": "1.6.3",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
