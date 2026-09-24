@@ -8,6 +8,26 @@
   "extensionList": {
     "extensions": [
       {
+        "name": "Fin Manga",
+        "packageName": "eu.kanade.tachiyomi.extension.th.finmanga",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/apk/tachiyomi-th.finmanga-v1.6.2.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/icon/eu.kanade.tachiyomi.extension.th.finmanga.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "7656859857051979814",
+            "name": "Fin Manga",
+            "language": "th",
+            "homeUrl": "https://www.fin-manga.com"
+          }
+        ]
+      },
+      {
         "name": "Kairew",
         "packageName": "eu.kanade.tachiyomi.extension.th.kairew",
         "resources": {
