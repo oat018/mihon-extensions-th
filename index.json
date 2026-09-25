@@ -146,6 +146,26 @@
             "homeUrl": "https://www.speed-doujin.com"
           }
         ]
+      },
+      {
+        "name": "1668Manga",
+        "packageName": "eu.kanade.tachiyomi.extension.thnew.manga1668",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-manga1668-v1.6.2.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.manga1668.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "1668166816681668",
+            "name": "1668Manga",
+            "language": "th",
+            "homeUrl": "https://1668manga.com"
+          }
+        ]
       }
     ]
   }
