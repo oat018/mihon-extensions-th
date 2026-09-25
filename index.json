@@ -11,12 +11,12 @@
         "name": "Fin Manga",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.finmanga",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-finmanga-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-finmanga-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.finmanga.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -31,12 +31,12 @@
         "name": "Kairew",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.kairew",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-kairew-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-kairew-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.kairew.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -51,12 +51,12 @@
         "name": "Nekopost",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.nekopost",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-nekopost-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-nekopost-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.nekopost.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
@@ -71,12 +71,12 @@
         "name": "ReadRealm",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.readrealm",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-readrealm-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-readrealm-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.readrealm.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -91,12 +91,12 @@
         "name": "WhyToon",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.whytoon",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-whytoon-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-whytoon-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.whytoon.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
@@ -111,12 +111,12 @@
         "name": "Up-Manga",
         "packageName": "eu.kanade.tachiyomi.extension.thnew.upmanga",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-upmanga-v1.6.1.apk",
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-upmanga-v1.6.2.apk",
           "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.upmanga.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
