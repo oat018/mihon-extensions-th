@@ -126,6 +126,26 @@
             "homeUrl": "https://www.up-manga.com"
           }
         ]
+      },
+      {
+        "name": "Speed Doujin",
+        "packageName": "eu.kanade.tachiyomi.extension.thnew.speeddoujin",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/apk/mihon-thnew-speeddoujin-v1.6.2.apk",
+          "iconUrl": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/icon/eu.kanade.tachiyomi.extension.thnew.speeddoujin.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "106002",
+        "versionName": "1.6.2",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": "4344850442775840656",
+            "name": "Speed Doujin",
+            "language": "th",
+            "homeUrl": "https://www.speed-doujin.com"
+          }
+        ]
       }
     ]
   }
