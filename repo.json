@@ -1,8 +1,8 @@
 {
-  "index_v2": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/main/index.pb",
+  "index_v2": "https://raw.githubusercontent.com/oat018/mihon-extensions-th/repo/index.pb",
   "meta": {
     "name": "Mihon Extensions TH",
     "website": "https://github.com/oat018/mihon-extensions-th",
-    "signingKeyFingerprint": "4cb88c43c6a9ab143487c20d7f45578af3384264f2b8a20eda94cc1f9b234859"
+    "signingKeyFingerprint": "05994b6471ace1a1542bb5602ce99dc00714da91137ad5353491033dcc2178fe"
   }
 }
